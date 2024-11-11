@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Nasi-Men-Weti/static/css/main.9dabf6fa.css",
+    "main.js": "/Nasi-Men-Weti/static/js/main.653efc23.js",
+    "static/media/bg-lp.png": "/Nasi-Men-Weti/static/media/bg-lp.eedc64bc7bed00aa24ac.png",
+    "static/media/lunch-pic.svg": "/Nasi-Men-Weti/static/media/lunch-pic.f68edd959434806617bfe41799186d99.svg",
+    "static/media/gathering_pic.svg": "/Nasi-Men-Weti/static/media/gathering_pic.e8ba06050ef6b4a90df600092475dc41.svg",
+    "static/media/menu-normal.png": "/Nasi-Men-Weti/static/media/menu-normal.07b564ff6f9681e21c01.png",
+    "static/media/overtimework-pic.svg": "/Nasi-Men-Weti/static/media/overtimework-pic.a08fab80edfbad97ec11cb42a982a0ca.svg",
+    "static/media/breakfast-pic.svg": "/Nasi-Men-Weti/static/media/breakfast-pic.618acd07e0a7fbed452d67f494c5a6a2.svg",
+    "static/media/menu-sarapan.png": "/Nasi-Men-Weti/static/media/menu-sarapan.5c96e66317a148ea0533.png",
+    "static/media/logo_menweti.png": "/Nasi-Men-Weti/static/media/logo_menweti.c1251f065aa9f4633b41.png",
+    "static/media/shopeefood-logo.png": "/Nasi-Men-Weti/static/media/shopeefood-logo.391d9db44c7e98d1a018.png",
+    "static/media/grab-logo.png": "/Nasi-Men-Weti/static/media/grab-logo.aa33b8eaa16c5d448947.png",
+    "static/media/gojek-logo.png": "/Nasi-Men-Weti/static/media/gojek-logo.d5478f7e4fe87f283731.png",
+    "index.html": "/Nasi-Men-Weti/index.html",
+    "main.9dabf6fa.css.map": "/Nasi-Men-Weti/static/css/main.9dabf6fa.css.map",
+    "main.653efc23.js.map": "/Nasi-Men-Weti/static/js/main.653efc23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dabf6fa.css",
+    "static/js/main.653efc23.js"
+  ]
+}
