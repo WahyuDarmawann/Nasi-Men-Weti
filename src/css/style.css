@@ -401,6 +401,12 @@ p {
   color: var(--white);
   width: 200px;
   border-radius: 50px;
+  transition: all ease-in-out 0.2s;
+}
+
+.button-apps a:hover {
+  background-color: var(--transparant-secondary);
+  transition: all ease-in-out 0.2s;
 }
 
 .button-apps p {
@@ -889,7 +895,7 @@ p {
 
 /* ------------------------------------ */
 
-/* MOBILE L SIZE */
+/* MOBILE L SIZE */ 
 @media screen and (max-width: 426px) {
   
   /* LANDING PAGE */
@@ -1179,40 +1185,171 @@ p {
   }
 }
 
-/* MOBILE M */
+/* MOBILE M */ /*edit lagi*/
 @media screen and (max-width: 376px) {
   /* LANDING PAGE */
   .hero-landingpage{
-    width: 1100px;
-    min-height: 295vh;
+    width: 1150px;
+    min-height: 310vh;
   }
 
+  .landingpage-col1 h1 {
+    font-size: 6.6rem;
+    line-height: 130px;
+  }
+  
+  .landingpage-col1 span {
+    font-size: 8rem;
+  }
+  
+  .landingpage-col1 p {
+    width: 100%;
+    padding-top: 10px;
+    font-size: 2.5rem;
+  }
+
+  .button-menu a {
+    font-size: 2rem;
+  }
+  
+  .button-menu .icon-arrow {
+    font-size: 2.3rem;
+    margin-left: 15px;
+  }
+  
   .button-menu {
-    background-color: var(--white);
+    background-color: var(--tersier-color);
+    width: 350px;
+    height: 130px;
+    border-radius: 70px;
+    margin-top: 40px;
   }
 
   /* FEATURES */
+  
   .features-container {
-    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px 0;
+    gap: 100px;
+    width: 1150px;
+  }
+
+  .features-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-content p {
+    font-size: 2.5rem;
+    margin: 20px 0 0 0;
+  }
+
+  .features-content h5 {
+    font-size: 3rem;
+  }
+
+  .features-content .features-icon {
+    padding: 60px;
+    font-size: 6rem;
   }
 
   /* MENU */
   .menu-section {
-    width: 1100px;
+    width: 1150px;
+    min-height: 375vh;
   }
 
-  /* ORDERAPPS */
-  .orderapps-button-container {
-    margin-left: 325px;
+  .menu-header h1 {
+    font-size: 5.7rem;
+  }
+
+  .menu-info-box h3 {
+    font-size: 3.5rem;
+  }
+
+  .menu-info-box p {
+    font-size: 2.5rem;
+  }
+
+  .menu-info-box .menu-price {
+    font-size: 4rem;
+  }
+
+  .menu-rating .icon-star {
+    font-size: 3.5rem;
+  }
+
+  .menu-rating span {
+    font-size: 2.5rem;
+  }
+
+  /* SUITABLE */
+  .suitable-section {
+    width: 1150px;
+    min-height: 320vh;
+  }
+
+  .suitable-header {
+    width: 79%;
+  }
+
+  .suitable-header h1 {
+    width: 75%;
+    font-size: 4.5rem;
+  }
+
+  .suitable-item-container{
     gap: 50px;
+  }
+
+  .suitable-item h4 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  
+  .suitable-item p {
+    font-size: 1.9rem;
+    width: 420px;
+  }
+
+  .suitable-item img {
+    width: 430px;
+    margin-bottom: 10px;
+  }
+
+
+  /* ORDERAPPS */
+  .orderapps-container-row1 {
+    width: 900px;
+  }
+
+  .orderapps-col1 {
+    width: 75%;
+  }
+
+  .orderapps-col1 h1 {
+    font-size: 4.2rem;
+  } 
+
+  .orderapps-col1 p {
+    font-size: 2rem;
+    margin: 15px 0;
+  }
+
+  .orderapps-button-container {
+    margin-left: 245px;
+    gap: 40px;
   }
 
   .button-apps a {
     margin: 10px 0;
     padding: 15px 25px;
     color: var(--white);
-    width: 275px;
-    height: 120px;
+    width: 280px;
+    height: 130px;
     border-radius: 75px;
   }
 
@@ -1220,15 +1357,29 @@ p {
     font-size: 1.5rem;
   }
 
+  .container-apps-order {
+    width: 1150px;
+  }
+
+  /* disini */
+
   /* FOOTER */
+  .footer-section {
+    width: 1150px;
+  }
+
+  .copyright-container {
+    padding: 25px 0;
+  }
+
   .copyright-container p {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
 
   .copyright-container::before {
-    left: calc(28%);
-    right: calc(28%);
-    margin-bottom: 60px;
+    left: calc(33%);
+    right: calc(33%);
+    margin-bottom: 80px;
     width: 240%;
   }
 }
