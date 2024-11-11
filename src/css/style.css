@@ -929,7 +929,7 @@ p {
   }
   
   .button-menu {
-    background-color: var(--tersier-color);
+    background-color: var(--white);
     width: 273px;
     height: 96px;
     border-radius: 50px;
