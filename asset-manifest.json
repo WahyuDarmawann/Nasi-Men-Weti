@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Nasi-Men-Weti/static/css/main.bbbe8580.css",
+    "main.css": "/Nasi-Men-Weti/static/css/main.faebf594.css",
     "main.js": "/Nasi-Men-Weti/static/js/main.653efc23.js",
     "static/media/bg-lp.png": "/Nasi-Men-Weti/static/media/bg-lp.eedc64bc7bed00aa24ac.png",
     "static/media/lunch-pic.svg": "/Nasi-Men-Weti/static/media/lunch-pic.f68edd959434806617bfe41799186d99.svg",
@@ -14,11 +14,11 @@
     "static/media/grab-logo.png": "/Nasi-Men-Weti/static/media/grab-logo.aa33b8eaa16c5d448947.png",
     "static/media/gojek-logo.png": "/Nasi-Men-Weti/static/media/gojek-logo.d5478f7e4fe87f283731.png",
     "index.html": "/Nasi-Men-Weti/index.html",
-    "main.bbbe8580.css.map": "/Nasi-Men-Weti/static/css/main.bbbe8580.css.map",
+    "main.faebf594.css.map": "/Nasi-Men-Weti/static/css/main.faebf594.css.map",
     "main.653efc23.js.map": "/Nasi-Men-Weti/static/js/main.653efc23.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbbe8580.css",
+    "static/css/main.faebf594.css",
     "static/js/main.653efc23.js"
   ]
 }
