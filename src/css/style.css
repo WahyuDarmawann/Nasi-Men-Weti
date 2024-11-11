@@ -929,7 +929,7 @@ p {
   }
   
   .button-menu {
-    background-color: var(--white);
+    background-color: var(--tersier-color);
     width: 273px;
     height: 96px;
     border-radius: 50px;
@@ -1185,6 +1185,10 @@ p {
   .hero-landingpage{
     width: 1100px;
     min-height: 295vh;
+  }
+
+  .button-menu {
+    background-color: var(--white);
   }
 
   /* FEATURES */
